@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>🎒 Number Guessing Challenge! 🎉</h1>
+    <p>Guess a number between 1 and 100</p>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess..." />
+    <button id="submitGuess">Submit</button>
+    <button id="restartGame" style="display: none;">Restart Game</button>
+
+    <p id="hint"></p>
+    <p id="attemptsLeft"></p>
+
+    <div id="resultImage"></div>
+  </div>
+
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
